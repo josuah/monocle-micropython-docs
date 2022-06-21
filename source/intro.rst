@@ -7,7 +7,7 @@ Introduction to Monocle
 
 AR is no longer limited to laboratories and fieldwork. Monocle is a pocket-sized device that clips right to your glasses. What it does best is help you collect memories. Share your clips and photos. Zoom in on far away objects. All without ever having to take your phone out of your pocket. Live life without looking down at your phone.
 
-Visit `Monocle <https://www.itsbrilliant.co/>`_ to get hands on one.
+Visit `Monocle <https://www.itsbrilliant.co/>`_ to get hands on one. And `Discord <https://discord.gg/3YvPv8tDMj>`_ channel for any new updates.
 
 This document describes the following about Monocle Product:
    * :ref:`Get Started with Monocle Firmware Development. <how_to_firmware>`

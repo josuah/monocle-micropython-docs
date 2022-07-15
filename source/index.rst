@@ -12,6 +12,7 @@ This document was generated on |date| at |time|.
 
    intro
    product_specifications
+   how_to_devboard
    how_to_firmware
    how_to_fpga
    how_to_mobile

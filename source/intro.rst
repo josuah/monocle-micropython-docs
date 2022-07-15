@@ -10,6 +10,7 @@ AR is no longer limited to laboratories and fieldwork. Monocle is a pocket-sized
 Visit `Monocle <https://www.itsbrilliant.co/>`_ to get hands on one. And `Discord <https://discord.gg/3YvPv8tDMj>`_ channel for any new updates.
 
 This document describes the following about Monocle Product:
+   * :ref:`Get Started with the Monocle Development Board. <how_to_devboard>`
    * :ref:`Get Started with Monocle Firmware Development. <how_to_firmware>`
    * :ref:`Get Started with Monocle FPGA Development. <how_to_fpga>`
    * :ref:`Get Started with Monocle Mobile App Development. <how_to_mobile>`

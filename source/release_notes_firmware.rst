@@ -3,6 +3,48 @@
 Current Release
 ===============
 
+Monocle Fimrware Version V1.7
+-----------------------------
+
++----------+--------------------+
+| Hardware | MK11 V1.0          |
++==========+====================+
+| MCU      | MK11_MCU_V1.7.hex  |
++----------+--------------------+
+| FPGA     | MK11_FPGA_V0.12.fs |
++----------+--------------------+
+
+New feature implementaion details
+---------------------------------
+- Meadia transfer speed increased
+- Adapted Event Scheduler from NRF Library to effectively handle events
+- Camera code refactored and opensourced
+
+Bugs Solved
+-----------
+- Touch Flex sensitivity increased
+
+TAG Version
+-----------
+*v1.7*
+
+Milestone
+---------
+*Release v1.7*
+
+New features in the next Release
+--------------------------------
+* Code Structuring
+* Update FPGA Support
+
+Dependancies
+------------
+* BLE Stack update to SWL BLE Release 2022-05-09
+* nRF SDK 17.0.2
+
+Previous Releases
+=================
+
 Monocle Fimrware Version V1.6
 -----------------------------
 
@@ -43,9 +85,6 @@ Dependancies
 ------------
 * Swaralink BLE Library Release 2022-03-16-A
 * nRF SDK 17.0.2
-
-Previous Releases
-=================
 
 Monocle Fimrware Version V1.4
 -----------------------------

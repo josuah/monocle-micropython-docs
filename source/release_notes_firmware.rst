@@ -3,6 +3,47 @@
 Current Release
 ===============
 
+Monocle Fimrware Version V1.8
+-----------------------------
+
++----------+--------------------+
+| Hardware | MK11 V1.0          |
++==========+====================+
+| MCU      | MK11_MCU_V1.8.hex  |
++----------+--------------------+
+| FPGA     | MK11_FPGA_V0.12.fs |
++----------+--------------------+
+
+New feature implementaion details
+---------------------------------
+- Live Video time increased to 12 Seconds
+- LED UI Enabled
+
+Bugs Solved
+-----------
+- BLE Media transfers for Video disabled
+
+TAG Version
+-----------
+*v1.8*
+
+Milestone
+---------
+*Release v1.8*
+
+New features in the next Release
+--------------------------------
+* Code Structuring
+* Update FPGA Support
+
+Dependancies
+------------
+* BLE Stack update to SWL BLE Release 2022-05-09
+* nRF SDK 17.0.2
+
+Previous Releases
+=================
+
 Monocle Fimrware Version V1.7
 -----------------------------
 
@@ -31,19 +72,6 @@ TAG Version
 Milestone
 ---------
 *Release v1.7*
-
-New features in the next Release
---------------------------------
-* Code Structuring
-* Update FPGA Support
-
-Dependancies
-------------
-* BLE Stack update to SWL BLE Release 2022-05-09
-* nRF SDK 17.0.2
-
-Previous Releases
-=================
 
 Monocle Fimrware Version V1.6
 -----------------------------
@@ -74,17 +102,6 @@ TAG Version
 Milestone
 ---------
 *Release v1.6*
-
-New features in the next Release
---------------------------------
-* Code Structuring
-* Implement Scheduler
-* Update FPGA Support
-
-Dependancies
-------------
-* Swaralink BLE Library Release 2022-03-16-A
-* nRF SDK 17.0.2
 
 Monocle Fimrware Version V1.4
 -----------------------------
@@ -118,14 +135,3 @@ TAG Version
 Milestone
 ---------
 *Release v1.4*
-
-New features in the next Release
---------------------------------
-* Code Structuring
-* Modularize 
-* Implement Scheduler
-
-Dependancies
-------------
-* Swaralink BLE Library Release 2022-03-16-A
-* nRF SDK 17.0.2

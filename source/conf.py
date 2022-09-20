@@ -24,9 +24,9 @@ copyright = u'2022, Brilliant Labs'
 author = u'Brilliant Labs'
 
 # The short X.Y version
-version = u'1.6'
+version = u'1.8'
 # The full version, including alpha/beta/rc tags
-release = u'v1.6'
+release = u'v1.8'
 
 
 # -- General configuration ---------------------------------------------------

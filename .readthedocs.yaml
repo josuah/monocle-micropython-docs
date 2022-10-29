@@ -1,0 +1,23 @@
+version: 2
+
+submodules:
+  include:
+    - monocle-micropython
+    - doxygen-awesome-css
+  recursive: false
+
+python:
+  install:
+    - requirements: requirements.txt
+
+build:
+  os: "ubuntu-22.04"
+  tools:
+    python: "3.10"
+  apt_packages:
+    - doxysphinx
+    - sass
+  jobs:
+    pre_build:
+      - doxygen
+      - doxysphinx build source build Doxyfile

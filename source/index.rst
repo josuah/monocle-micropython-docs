@@ -1,8 +1,8 @@
 .. |date| date::
 .. |time| date:: %H:%M
 
-Introduction to Monocle
-=======================
+BrilliantLabs Monocle
+=====================
 .. figure:: /images/monocle.png
 
    *Monocle.*
@@ -41,49 +41,33 @@ Monocle Phone Application Side
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * Application on phone displaying Video/Photo transferred from monocle
 
-
-.. toctree::
-   :maxdepth: 5
-   :caption: Hardware
-
-   product_specifications
-   how_to_devboard
-   future
-
 .. toctree::
    :maxdepth: 5
    :caption: Firmware
 
-   how_to_firmware
-   software_architecture
-   software_design
-   html/index.rst
+   firmware_how_to.rst
+   firmware_architecture.rst
+   firmware_driver_api/html/index.rst
+   firmware_python_api.rst
+   firmware_release_notes.rst
 
 .. toctree::
    :maxdepth: 5
    :caption: FPGA
 
-   how_to_fpga
-   hardware_specifications
+   fpga_how_to.rst
+
+.. toctree::
+   :maxdepth: 5
+   :caption: Hardare
+
+   hardware_how_to.rst
+   hardware_architecture.rst
 
 .. toctree::
    :maxdepth: 5
    :caption: Phone App
 
-   how_to_mobile
-   phone_app
-
-.. toctree::
-   :maxdepth: 5
-   :caption: Misc
-
-   documentation_tools
-
-.. toctree::
-   :maxdepth: 5
-   :caption: Release
-
-   release_notes_firmware
-   release_notes_phone
-
-Generated on |date| at |time|.
+   phone_app_how_to.rst
+   phone_app_architecture.rst
+   phone_app_release_notes.rst

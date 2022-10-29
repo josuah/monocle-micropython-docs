@@ -1,5 +1,3 @@
-.. _how_to_fpga:
-
 Get Started with FPGA development
 =================================
 
@@ -23,3 +21,8 @@ Steps
 8. Select the Series to be GW1N, Device to be GW1N-9 and operation to be Read Device Codes
 9. Click on the Green Program/Configure button to read out the ID of the FPGA.
 10. You should get the JTAG ID of the FPGA as seen in the screenshot above.
+
+Future development
+------------------
+
+* Video Compression for faster Video transfer from Monocle to Phone

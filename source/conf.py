@@ -199,7 +199,7 @@ epub_exclude_files = ['search.html']
 
 doxylink = {
     "drivers": (
-        "source/drivers/html/tagfile.xml",
-        "source/drivers/html",
+        "source/firmware_driver_api/html/tagfile.xml",
+        "source/firmware_driver_api/html",
     ),
 }

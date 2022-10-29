@@ -1,5 +1,5 @@
 # Name for the DoxySphinx section of the Sphinx doc
-PROJECT_NAME           = Drivers C API
+PROJECT_NAME           = Firmware Drivers API
 
 # Lengthier description for this section
 PROJECT_BRIEF          = Useful for writing new Python libraries or low-level firmware in C
@@ -8,7 +8,7 @@ PROJECT_BRIEF          = Useful for writing new Python libraries or low-level fi
 INPUT                  = monocle-micropython/drivers
 
 # Output within the Sphinx source directory for DoxySphinx integration.
-OUTPUT_DIRECTORY       = source
+OUTPUT_DIRECTORY       = source/firmware_driver_api
 
 # Deactivate doxygens own treeview (as it doesn't look right)
 GENERATE_TREEVIEW      = NO
@@ -34,7 +34,7 @@ GENERATE_XML           = NO
 SEARCHENGINE           = NO
 
 # generate a tag file
-GENERATE_TAGFILE       = source/html/tagfile.xml
+GENERATE_TAGFILE       = source/firmware_driver_api/html/tagfile.xml
 
 # generates nicer svg images
 DOT_IMAGE_FORMAT       = svg

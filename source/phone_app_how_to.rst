@@ -1,5 +1,3 @@
-.. _how_to_mobile:
-
 Get Started with Monocle Mobile App
 ===================================
 

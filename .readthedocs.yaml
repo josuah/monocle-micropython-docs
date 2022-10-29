@@ -15,7 +15,6 @@ build:
   tools:
     python: "3.10"
   apt_packages:
-    - doxysphinx
     - sass
   jobs:
     pre_build:

@@ -1,6 +1,6 @@
 [submodule "monocle-micropython"]
 	path = monocle-micropython
-	url = git@github.com:itsbrilliantlabs/monocle-micropython
+	url = https://github.com/itsbrilliantlabs/monocle-micropython
 [submodule "doxygen-awesome-css"]
 	path = doxygen-awesome-css
 	url = https://github.com/jothepro/doxygen-awesome-css

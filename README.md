@@ -6,6 +6,8 @@
 
 Documentation Hosted on [readthedocs](https://monocle-docs.readthedocs.io/)
 
+In order to upgrade the monocle-micropython documentation, all you neend to upgrade the monocle-micropython submodule, push the changed version of the submodule, and wait read-the-doc to pick-up the change and rebuild the doc.
+
 Join our [Discord](https://discord.gg/3YvPv8tDMj) Channel.
 
 Associated Gits:

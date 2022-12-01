@@ -16,7 +16,7 @@ Set Up
 1. Make sure you have a recent version of ``npm`` installed.
 2. Make sure ``yarn`` is installed, e.g. ``npm i -g yarn``.
 3. In the project root, install all the npm packages: ``yarn install``.
-4. For iOS, make sure you have Cocoapods installed: [https://guides.cocoapods.org/using/getting-started.html](https://guides.cocoapods.org/using/getting-started.html).
+4. For iOS, make sure you have Cocoapods installed: https://guides.cocoapods.org/using/getting-started.html
 5. Install the pods: ``cd ios``, then ``pod install``.
 6. You can now open the ``xcworkspace`` file and then run the app using Xcode.
 7. For Android, you should generate your own keystore, e.g.: ``keytool -genkey -v -keystore ./android/app/debug.keystore -storepass android -alias androiddebugkey -keypass android -keyalg RSA -keysize 2048 -validity 10000``

@@ -9,6 +9,6 @@ Documentation Hosted on [readthedocs](https://monocle-docs.readthedocs.io/)
 Join our [Discord](https://discord.gg/3YvPv8tDMj) Channel.
 
 Associated Gits:
-1) monocle-firmware
-2) monocle-fpga
+1) `monocle-micropython <https://github.com/Itsbrilliantlabs/monocle-micropython>`_
+2) `monocle-fpga <https://github.com/Itsbrilliantlabs/monocle-fpga>`_
 

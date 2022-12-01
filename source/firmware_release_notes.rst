@@ -1,5 +1,3 @@
-.. _release_notes_firmware:
-
 Current Release
 ===============
 

@@ -1,5 +1,3 @@
-.. _how_to_devboard:
-
 Get Started with the Developer Board
 ====================================
 
@@ -22,6 +20,8 @@ Note that the Developer board allows you to connect either a 10-pin JTAG/SWD cab
 
 Suggested setups:
 
-- Firmware Developers: Any JTAG debugger that works with the Segger Embedded Studio would work well. A variety of JLink programmers have been found to work well. :ref:`Get Started with Monocle Firmware Development. <how_to_firmware>`
+- Firmware Developers: Any JTAG debugger that works with the Segger Embedded Studio would work well.
+  A variety of JLink programmers have been found to work well.
 
-- FPGA Developers: You will most likely need to also do some firmware modifications if you decide to change the FPGA code so access to a SWD compatible programmer is highly recommended. In addition, you will need a `Gowin programmer cable <https://www.gowinsemi.com/en/support/devkits_detail/3/>`_. :ref:`Get Started with Monocle FPGA Development. <how_to_fpga>`
+- FPGA Developers: You will most likely need to also do some firmware modifications if you decide to change the FPGA code so access to a SWD compatible programmer is highly recommended.
+  In addition, you will need a `Gowin programmer cable <https://www.gowinsemi.com/en/support/devkits_detail/3/>`_.

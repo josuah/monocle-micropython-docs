@@ -6,6 +6,13 @@
 # full list see the documentation:
 # http://www.sphinx-doc.org/en/master/config
 
+# -- Doxygen support ---------------------------------------------------------
+
+import subprocess
+
+subprocess.call('cd .. ; doxygen', shell=True)
+subprocess.call('cd .. ; doxysphinx build source/ build/ Doxyfile', shell=True)
+
 # -- Path setup --------------------------------------------------------------
 
 # If extensions (or modules to document with autodoc) are in another directory,

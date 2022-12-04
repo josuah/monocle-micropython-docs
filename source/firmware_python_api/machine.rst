@@ -1,106 +1,124 @@
 :py:mod:`machine`
 -----------------
 
+🟠 means "not implemented yet"
+
 .. py:module:: machine
 
-.. py:class:: Battery
+.. py:class:: Battery() 🟠
 
-   .. py:function:: level
+   Sensing battery power.
 
-      Returns the current battery level as a percentage
+   .. py:method:: level() 🟠
+
+      :return: the current battery level as a percentage
    
-.. py:class:: Camera
+.. py:class:: Camera() 🟠
 
-   .. py:function:: capture(url)
+   Controlling feeds from the camera.
+
+   .. py:method:: capture(url) 🟠
+
+      :param: url
 
       Sends the last captured image over WiFi to the given URL. If no URL is provided, the image is sent over bluetooth
    
-   .. py:function:: stream(url)
+   .. py:method:: stream(url) 🟠
 
       Starts streaming images over WiFi to the given URL. If no URL is provided, the images are sent over bluetooth
    
-   .. py:function:: stop()
+   .. py:method:: stop() 🟠
 
       Stops any ongoing image stream or capture currently in progress
 
-.. py:class:: Display
+.. py:class:: Display() 🟠
 
-   .. py:function:: show(framebuffer)
+   Drawing to the display.
+
+   .. py:method:: show(framebuffer) 🟠
 
       Pushes a framebuffer object to the FPGA for drawing onto the display
 
 
-.. py:class:: FPGA
+.. py:class:: FPGA() 🟠
 
-   .. py:function:: download(url)
+   Communication with the FPGA.
+
+   .. py:method:: download(url) 🟠
 
       Downloads and reboots the FPGA with the bitstream from the url provided. If a url is not provided, the bitstream is requested over bluetooth. Automatically powers up the FPGA if it was powered down
 
-   .. py:function:: spi_read(cmd, addr, bytes)
+   .. py:method:: spi_read(cmd, addr, bytes) 🟠
 
-      Reads n bytes from the FPGA with a given command and address. Returns a byte array
+      Reads n bytes from the FPGA with a given command and address. :return: a byte array
 
-   .. py:function:: spi_write(cmd, addr, bytes, buffer)
+   .. py:method:: spi_write(cmd, addr, bytes, buffer) 🟠
 
       Writes n bytes from buffer to the FPGA with a given command and address. 
 
-   .. py:function:: status()
+   .. py:method:: status() 🟠
 
-      Returns the current status of the FPGA
+      :return: the current status of the FPGA
 
 
-.. py:class:: Microphone
+.. py:class:: Microphone() 🟠
 
-   .. py:function:: stream(*url*)
+   Controlling feeds fromthe microphone.
+
+   .. py:method:: stream(*url*) 🟠
 
       Starts streaming audio data over WiFi to the given URL. If no URL is provided, the audio is sent over bluetooth
 
-   .. py:function:: stop()
+   .. py:method:: stop() 🟠
 
       Stops any ongoing audio stream
 
 
-.. py:class:: Power
+.. py:class:: Power() 🟠
 
-   .. py:function:: hibernate(enable)
+   Controlling general power.
+
+   .. py:method:: hibernate(enable) 🟠
 
       Enables or disables all the high power devices. Networking remains active. Upon re-enabling the FPGA will remain in reset until booted using FPGA.boot()
 
-   .. py:function:: reset()
+   .. py:method:: reset() 🟠
 
       Resets the device
 
-   .. py:function:: reset_cause()
+   .. py:method:: reset_cause() 🟠
 
-      Returns the reason for the previous reset or startup state
+      :return: the reason for the previous reset or startup state
 
-   .. py:function:: shutdown(timeout)
+   .. py:method:: shutdown(timeout) 🟠
 
       Places the device into deep-sleep and powers down all high power devices. If a timeout is given, the device will wake up again after that many seconds, otherwise the device will only wake up upon inserting, and removing from the case. Upon wakeup, the device will reset, and the cause can be seen using the Power.reset_cause() function
 
 
-.. py:class:: Timer(id, period, callback, oneshot)
+.. py:class:: Timer(id, period, callback, oneshot) 🟠
 
    Creates a new Timer object on timer id with the period in milliseconds and a given callback handler.
    The oneshot value can optionally be set to true if only a single trigger is required.
    By default the timer is repeating
 
-   .. py:function:: value()
+   .. py:method:: value() 🟠
 
-      Returns the current count value of the timer in milliseconds
+      :return: the current count value of the timer in milliseconds
 
-   .. py:function:: deinit()
+   .. py:method:: deinit() 🟠
 
       De-initializes the timer and stops any callbacks
 
 
-.. py:class:: Touch
+.. py:class:: Touch() 🟠
 
-   .. py:function:: mac_address()
+   Setting up touch event callbacks
 
-      :returns: the 48bit MAC address of the device as a 17 character string. Each byte is delimited with a colon
+.. py:function:: mac_address() 🟠
 
-   .. py:function:: update(start)
+   :return: the 48bit MAC address of the device as a 17 character string. Each byte is delimited with a colon
 
-      Checks for firmware updates and returns True if it is available.
-      If start is set to True, the update process is begun, and the device will enter the bootloader state
+.. py:function:: update(start) 🟠
+
+   Checks for firmware updates and returns True if it is available.
+   If start is set to True, the update process is begun, and the device will enter the bootloader state

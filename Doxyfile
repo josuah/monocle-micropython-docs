@@ -45,9 +45,6 @@ DOT_TRANSPARENT        = YES
 # to be able to scroll and zoom into big images
 INTERACTIVE_SVG        = YES
 
-# With it, the doxygen docs fit far better with any sphinx theme.
-HTML_EXTRA_STYLESHEET  = doxygen-awesome.css
-
 # Empty header and footer
 HTML_FOOTER            = /dev/null
 

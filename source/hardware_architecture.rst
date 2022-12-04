@@ -6,7 +6,7 @@ Evolutions of Monocle hardware:
 * `MK11 <https://raw.githubusercontent.com/Itsbrilliantlabs/monocle-boards/main/Monocle%20main%20board%20v1.0.pdf>`_
 * `MK12` - **Currently in production**, with the same schematic but improved PCB routing.
 
-.. image:: images/block_diagram.png
+.. figure:: images/block_diagram.png
 
   *Hardware Block Diagram of Monocle*
 

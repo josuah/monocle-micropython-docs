@@ -12,7 +12,7 @@ import subprocess
 
 subprocess.call('cd .. ; doxygen', shell=True)
 subprocess.call('cd .. ; doxysphinx build source/ build/ Doxyfile', shell=True)
-subprocess.call('cp firmware_driver_api/html/doxygen-awesome.css ../build/_static/doxygen-awesome.css', shell=True)
+subprocess.call('cd .. ; cp doxygen-awesome.css build/_static/', shell=True)
 
 # -- Path setup --------------------------------------------------------------
 

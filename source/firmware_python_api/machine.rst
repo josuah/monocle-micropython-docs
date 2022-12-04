@@ -17,15 +17,14 @@
 
    Controlling feeds from the camera.
 
-   .. py:method:: capture(url) 🟠
+   .. py:method:: capture() 🟠
 
-      :param: url
-
-      Sends the last captured image over WiFi to the given URL. If no URL is provided, the image is sent over bluetooth
+      Sends the last captured image over Bluetooth
    
-   .. py:method:: stream(url) 🟠
+   .. py:method:: stream() 🟠
 
-      Starts streaming images over WiFi to the given URL. If no URL is provided, the images are sent over bluetooth
+      Starts streaming images over Bluetooth.
+      Because Bluetooth is involved, this will have a low frame rate.
    
    .. py:method:: stop() 🟠
 
@@ -44,13 +43,17 @@
 
    Communication with the FPGA.
 
-   .. py:method:: download(url) 🟠
+   .. py:method:: download() 🟠
 
-      Downloads and reboots the FPGA with the bitstream from the url provided. If a url is not provided, the bitstream is requested over bluetooth. Automatically powers up the FPGA if it was powered down
+      Downloads and reboots the FPGA with the bitstream from Bluetooth.
+      Automatically powers up the FPGA if it was powered down.
 
    .. py:method:: spi_read(cmd, addr, bytes) 🟠
 
-      Reads n bytes from the FPGA with a given command and address. :return: a byte array
+      :param:
+      :return: a byte array
+
+      Reads bytes from the FPGA with a given command and address.
 
    .. py:method:: spi_write(cmd, addr, bytes, buffer) 🟠
 
@@ -65,9 +68,9 @@
 
    Controlling feeds fromthe microphone.
 
-   .. py:method:: stream(*url*) 🟠
+   .. py:method:: stream() 🟠
 
-      Starts streaming audio data over WiFi to the given URL. If no URL is provided, the audio is sent over bluetooth
+      Starts streaming audio data over Bluetooth
 
    .. py:method:: stop() 🟠
 
